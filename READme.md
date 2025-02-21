@@ -2,7 +2,7 @@
 
 Hello
 
-in this directory you will find the backend of the server
+in this directory you will find a simple app that connects vue with golang with migrations
 
 ---
 
