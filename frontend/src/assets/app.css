@@ -1,0 +1,70 @@
+/* Welcome Page Styles */
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    /* Arrange items vertically */
+    align-items: center;
+    /* Center horizontally */
+    text-align: center;
+    /* Center text within elements */
+}
+
+.welcome-container h1 {
+    color: #007bff;
+    /* Blue heading */
+    margin-bottom: 20px;
+}
+
+.welcome-container nav {
+    margin-bottom: 30px;
+}
+
+.welcome-container nav a {
+    margin: 0 10px;
+    /* Space between links */
+    text-decoration: none;
+    /* Remove underlines from links */
+    color: #333;
+    /* Dark gray link color */
+    font-weight: bold;
+    transition: color 0.3s;
+    /* Smooth color transition */
+}
+
+.welcome-container nav a:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+}
+
+.welcome-container {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styles for the router view area */
+
+.welcome-container .router-view {
+    /* You can add styles specific to the router view content here */
+    /* For example: */
+    background-color: #fff;
+    width: 100%;
+    /* Occupy most of the container's width */
+    max-width: 100%;
+    /* Set a maximum width */
+}
+
+
+/* Example styles for content inside the router-view */
+
+.welcome-container .router-view h2 {
+    color: #333;
+}
+
+.welcome-container .router-view p {
+    color: #555;
+    line-height: 1.6;
+}
